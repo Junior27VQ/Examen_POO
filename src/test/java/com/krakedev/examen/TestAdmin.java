@@ -6,10 +6,12 @@ public class TestAdmin {
 
 	public static void main(String[] args) {
 		AdminVentas av=new AdminVentas();
-		Vendedor v1=new VendedorComision("123");
+		Vendedor v1= null;
 		Vendedor v2=new VendedorMixto("456");
+		
 		v1.setNumeroVentas(10);
 		v1.setComisionPorVentas(5);
+		v1.calcularSueldo();
 		
 		v2.setNumeroVentas(15);
 		v2.setComisionPorVentas(7);

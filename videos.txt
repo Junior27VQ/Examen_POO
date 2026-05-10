@@ -1,0 +1,2 @@
+video 1: "NullPointerException": 
+https://institutomovilis-my.sharepoint.com/:v:/g/personal/fa_velez_movilis_edu_ec/IQDYNLQwcGtWT4F5HHIp1mDiAfNGal3ot7A2OGwpmX5whsI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hnFhHp
