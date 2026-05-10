@@ -2,8 +2,11 @@ package com.krakedev.examen.administracion;
 
 import java.util.ArrayList;
 
+import org.springframework.stereotype.Service;
+
 import com.krakedev.examen.Vendedor;
 
+@Service
 public class AdminVentas {
 	private ArrayList<Vendedor> vendedores=new ArrayList<Vendedor>();
 	
@@ -11,6 +14,7 @@ public class AdminVentas {
 		boolean existe=true;
 		for(Vendedor v:vendedores) {
 			if(v.getCedula().equals(vendedor.getCedula()))
+				existe=false;
 				break;
 		}
 		if(existe) {
