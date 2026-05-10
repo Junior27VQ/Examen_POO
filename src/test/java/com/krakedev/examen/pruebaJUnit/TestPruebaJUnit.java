@@ -9,7 +9,7 @@ public class TestPruebaJUnit {
 	@Test
     public void validarCalcularSueldo() {
         // 1. Escenario (Arrange): Creamos el objeto con la cédula requerida
-        Vendedor vendedor = new Vendedor("12345678");
+        Vendedor vendedor = new Vendedor("12345678","A");
         
         // Definimos un sueldo de prueba
         double sueldoEsperado = 1500.50;

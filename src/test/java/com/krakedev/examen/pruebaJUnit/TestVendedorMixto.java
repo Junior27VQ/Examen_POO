@@ -9,7 +9,7 @@ public class TestVendedorMixto {
 	@Test
     public void validarCalcularSueldoMixtoConPorcentaje() {
         // 1. Escenario (Arrange)
-        VendedorMixto vm = new VendedorMixto("55667788");
+        VendedorMixto vm = new VendedorMixto("55667788", "A");
         
         double sueldoFijo = 2000.0;
         int ventas = 5;
@@ -33,7 +33,7 @@ public class TestVendedorMixto {
 
     @Test
     public void validarSueldoMixtoSinVentas() {
-        VendedorMixto vm = new VendedorMixto("55667788");
+        VendedorMixto vm = new VendedorMixto("55667788", "C");
         vm.setSueldoFijo(1000.0);
         vm.setNumeroVentas(0);
 

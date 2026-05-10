@@ -10,7 +10,7 @@ public class TestVendedorComision {
 	@Test
     public void validarCalcularSueldoComision() {
         // 1. Escenario
-		VendedorComision vc = new VendedorComision("87654321");
+		VendedorComision vc = new VendedorComision("87654321", "C");
         
         double comision = 50.0;
         int ventas = 10;
@@ -30,7 +30,8 @@ public class TestVendedorComision {
     @Test
     public void validarHerenciaCedula() {
         String cedulaEsperada = "999999";
-        VendedorComision vc = new VendedorComision(cedulaEsperada);
+        String tipo = "M";
+        VendedorComision vc = new VendedorComision(cedulaEsperada, tipo);
         
         // Verificamos que la clase hija realmente recibió la cédula a través del constructor super()
         assertEquals(cedulaEsperada, vc.getCedula(), "La cédula debe heredarse correctamente de la clase padre.");

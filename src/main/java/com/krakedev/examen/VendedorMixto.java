@@ -2,8 +2,8 @@ package com.krakedev.examen;
 
 public class VendedorMixto extends Vendedor {
 
-	public VendedorMixto(String cedula) {
-		super(cedula);
+	public VendedorMixto(String cedula, String tipo) {
+		super(cedula, tipo);
 	}
 	@Override
 	public double calcularSueldo() {
