@@ -5,6 +5,7 @@ public class Vendedor {
 	private int numeroVentas;
 	private double sueldoFijo;
 	private double comisionPorVentas;
+	
 	public Vendedor(String cedula) {
 		super();
 		this.cedula = cedula;
@@ -35,7 +36,7 @@ public class Vendedor {
 	}
 	
 	public double calcularSueldo() {
-		return sueldoFijo+comisionPorVentas;
+		return sueldoFijo;
 	}
 	
 	@Override
